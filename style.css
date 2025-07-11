@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.n-left i {
+  font-size: 37px;
+  color: orangered;
+  gap: 2rem;
+}
+
+nav button {
+  background: #fedc00;
+  border: none;
+  padding: 13px;
+  border-radius: 10px;
+  font-weight: 550px;
+  width: 120px;
+  font-size: 15px;
+  transition: all 0.4s;
+}
+
+.nav button:hover {
+  background: grey;
+}
+
+.n-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.cart-btn {
+  transition: all 0.4s;
+  position: relative;
+}
+
+.c-cart {
+  position: absolute;
+  width: 320px;
+  height: 350px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  top: 60px;
+  right: -120px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: none;
+}
+
+.cart-btn:hover .c-cart {
+  display: flex;
+  background-color: white;
+}
+
+.cart:hover {
+  background: grey;
+}
+
+.login:hover {
+  background: grey;
+}
+
+.cart-btn h5 {
+  position: absolute;
+  color: white;
+  background: red;
+  width: 15px;
+  height: 15px;
+  right: -6px;
+  top: 5px;
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+}
+
+.explore {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.explore-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-top h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.em {
+  font-size: 30px;
+}
+
+.va {
+  color: orangered;
+}
+
+.explore-bottom {
+  display: flex;
+  position: relative;
+  gap: 2rem;
+  margin: 5rem auto;
+}
+
+.e-card {
+  border: 1px solid orange;
+  border-radius: 15px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.e-card h5 {
+  text-align: center;
+}
+
+.arrows {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 45px;
+  background-color: white;
+  color: orangered;
+}
+
+.arrows :hover {
+  color: white;
+  background: orangered;
+  border-radius: 10px;
+}
+
+.right {
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+}
+.left {
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+
+.posters {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+}
+
+.posters h5 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.mobile {
+  width: 70%;
+  height: 400px;
+  background: #fee641;
+  margin: 4rem auto;
+  border-radius: 30px;
+}
+
+.mobile {
+  transform: skewY(60deg);
+}
+
+.m-sec {
+  display: flex;
+  margin: 6rem auto;
+  align-items: center;
+  justify-content: center;
+}
